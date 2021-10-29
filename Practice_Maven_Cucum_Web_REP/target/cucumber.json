@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-29T15:02:25.619Z",
+        "line": 5,
+        "name": "Login as a authenticated user",
+        "description": "",
+        "id": "login-feature;login-as-a-authenticated-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13701000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is  on homepage",
+            "match": {
+              "location": "steps.login.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7866000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to Login Page",
+            "match": {
+              "location": "steps.login.user_navigates_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9324000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username and Password",
+            "match": {
+              "location": "steps.login.user_enters_username_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "success message is displayed",
+            "match": {
+              "location": "steps.login.success_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tag"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "Verify if user is able to Login in to the site",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
