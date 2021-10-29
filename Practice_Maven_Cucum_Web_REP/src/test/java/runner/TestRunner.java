@@ -12,7 +12,7 @@ glue= {"steps"},
 // Simple HTML Report.
 //plugin = { "pretty", "html:target/htmlreports" }
 
-// Extended HTML Report.
+// Extended HTML Report.33
 plugin = {"json:target/cucumber.json"}
 
 )
